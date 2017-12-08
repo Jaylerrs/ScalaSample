@@ -2,6 +2,7 @@ package com.traition.ScalaTutorial
 
 object main {
 
+  import scala.math._
   val ls: List[Int] = List(1, 1, 2, 3, 5, 8)
   val adList: List[Symbol] = List('a, 'b, 'c, 'd)
   val afList: List[Symbol] = List('a, 'b, 'c, 'd, 'e, 'f)
@@ -20,7 +21,16 @@ object main {
     val userDir = () => { System.getProperty("user.dir") }
     println(userDir())
 
-    val b = (xx:Int) => xx*a(5)
+    val b = (xx:Int) => xx*a(xx)
     println(b(5))
+
+    val c = (xxx:String) => xxx + b(5).toString()
+    println(c("Can I borrow your money only for ") + " dollar")
+    println(c("Please give me ") + (10+3*5/2).toString + " dollar")
+    println(round(10.4))
+    val age = 23
+    val canVote = if (age >=18) "can" else "can not"
+    val canVote2 = if (age>=18) "Yes," else "No,"
+    println(canVote2+" I " + canVote + " vote")
   }
 }
