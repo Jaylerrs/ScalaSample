@@ -2,60 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05981097-b71f-4e9e-a5ea-6424022b399e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_1_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_api_client_google_api_client_1_21_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_api_client_google_api_client_gson_1_21_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_code_findbugs_jsr305_1_3_9_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_code_gson_gson_2_6_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_firebase_firebase_server_sdk_3_0_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_guava_guava_jdk5_17_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_http_client_google_http_client_1_21_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_http_client_google_http_client_gson_1_21_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_http_client_google_http_client_jackson2_1_21_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_google_oauth_client_google_oauth_client_1_21_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__commons_codec_commons_codec_1_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__commons_logging_commons_logging_1_1_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_httpcomponents_httpclient_4_0_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_apache_httpcomponents_httpcore_4_0_1_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json_json_20160212_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/Firebase.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/InformationManager.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/EmailManager.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/firebase" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/jaylerr-build.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/jaylerr.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$6a212cc3bbb664af68bb$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$6a212cc3bbb664af68bb.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$6a212cc3bbb664af68bb.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/ListManager$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/ListManager.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/ListManager.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/ListManager.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/config-classes/$d78cfd291ced9a46a5f8$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$d78cfd291ced9a46a5f8$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/InformationManager.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/Manager/InformationManager$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/Manager/InformationManager.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/Manager/FileManager.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/Manager/FileManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/main$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/main$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/main.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/traition/ScalaTutorial/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/MyProb.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/MyProb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/main.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/main.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/MyProb.scala" afterPath="$PROJECT_DIR$/src/test/scala/MyProb.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,51 +41,11 @@
       <file leaf-file-name="main.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="69" column="75" lean-forward="false" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
+            <state relative-caret-position="360">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding>
-                <element signature="e#36#52#0" expanded="true" />
+                <element signature="e#35#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileManager.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InformationManager.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/InformationManager.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListManager.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/ListManager.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tutorials.sc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/Tutorials.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -190,21 +106,24 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Run.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/ListManager.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/EmailManager.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/ListManager.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/firebase" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/info.txt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/main.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="y" value="24" />
+    <option name="width" value="1853" />
+    <option name="height" value="1048" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -220,8 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,12 +173,31 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="ScalaTutorial" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jaylerr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaylerr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ScalaTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaylerr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaylerr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="ScalaTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="Manager" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,36 +436,41 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="24" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.4916442" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5471698" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.45067385" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5105121" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.48948786" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17897575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.4528302" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17843665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -547,14 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/ListManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/Tutorials.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
@@ -568,24 +502,19 @@
         <state relative-caret-position="1098">
           <caret line="62" column="3" lean-forward="true" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
           <folding>
-            <element signature="e#36#52#0" expanded="true" />
+            <element signature="e#35#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/InformationManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/InformationManager.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#43#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -610,7 +539,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#36#52#0" expanded="true" />
+            <element signature="e#35#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -628,7 +557,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#36#52#0" expanded="true" />
+            <element signature="e#35#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -699,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/Tutorials3.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="41" column="66" lean-forward="false" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/study.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -755,21 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Main.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/Tutorials2.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Prob1To10.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/exam.sc">
@@ -793,45 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/InformationManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/Tutorials.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/ListManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/Firebase.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/firebase">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -843,16 +712,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/InformationManager.scala" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/Tutorials3.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/Tutorials2.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/example/Tutorials.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/ListManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="80" column="32" lean-forward="false" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/Firebase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/Manager/FileManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="e#43#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/traition/ScalaTutorial/main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="69" column="75" lean-forward="false" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
+        <state relative-caret-position="360">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
-            <element signature="e#36#52#0" expanded="true" />
+            <element signature="e#35#51#0" expanded="true" />
           </folding>
         </state>
       </provider>

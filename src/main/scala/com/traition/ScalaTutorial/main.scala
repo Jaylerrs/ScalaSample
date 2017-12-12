@@ -1,22 +1,127 @@
 package com.traition.ScalaTutorial
-
 import java.time
 
-import com.traition.ScalaTutorial.Manager.ListManager
+import com.traition.ScalaTutorial.Manager.{FileManager, ListManager}
 
 object main {
-  val ls: List[Int] = List(1, 2, 3, 4)
+  val ls: List[Int] = List.range(1,4)
   val adList: List[Symbol] = List('a, 'b, 'c, 'd)
   val afList: List[Symbol] = List('a, 'b, 'c, 'd, 'e, 'f)
   val ahList: List[Symbol] = List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h)
+  val za = "abcdefghijklmnopqrstuvwxyz".toList
+  val azList: List[Char] = za
+
+  def opening():Unit = {
+    printX(33, "=")
+    println(time.Instant.now())
+    println("getting start with SCALA")
+  }
+
+  def printX(int: Int, string: String):Unit = {
+    if (int>0){
+      print(string)
+      printX(int-1, string)
+    } else {
+      println()
+    }
+  }
 
   def main(args: Array[String]): Unit = {
-    println(time.Year.now())
-    println("getting start with SCALA")
-    (ahList ++ afList ++ adList ++ ahList).foreach(x => print("-"))
+    opening()
+    whatDoUWant()
+  }
+
+  def whatDoUWant(): Unit ={
+    printX(33, "=")
+    println(
+      """press 1, Add new member
+        |press 2, Print all member
+        |press 3, Remove all""".stripMargin)
+    print("Select : ")
+    var select = scala.io.StdIn.readLine().toInt
+    while (select>3 || select <1){
+      if (select>3 || select <1) {
+        println("Please select only we have provided")
+        print("Select : ")
+        select = scala.io.StdIn.readLine().toInt
+      }
+    }
+    select match {
+      case 1 => inputInfo()
+      case 2 => FileManager.readAllName()
+      case 3 => remove()
+    }
+
+    println()
+    printX(51, "*")
+    print(
+      """Quite? press Q
+        |Wanna continue? press any key
+        |select : """.stripMargin)
+    val out = scala.io.StdIn.readLine().toString
+    out match {
+      case "q" =>
+      case "Q" =>
+      case _ => whatDoUWant()
+    }
+  }
+
+  def remove(): Unit ={
+    print(
+      """
+        |**********************************************************
+        |**  This option are risk and effect all around.         **
+        |**  Please make sure you have to remove member's data.  **
+        |**  This option require password to continue            **
+        |**********************************************************
+        |Password : """.stripMargin)
+    val pass = scala.io.StdIn.readLine().toString
+    if(pass.equals("password")){
+      println("Remove all member data, Are you sure? (Y to confirm any key to cancel)")
+      print("Answer : ")
+      val confirm = scala.io.StdIn.readLine().toString
+      if ("Y".equals(confirm.toUpperCase())){
+        FileManager.removeFile()
+      }
+    } else print(
+      """|
+         |***************************************************
+         |**  The password is incorrect,                   **
+         |**  So you don't have permission to remove this  **
+         |**  Finally, The data are safe and still alive   **""".stripMargin)
+
+  }
+
+  def printInfo(info: List[String]): Unit ={
+    var i = 0
+    info.foreach(x=> {
+      i+=1
+      if (i%3==0){
+        println(x.toUpperCase())
+      } else print(x.toUpperCase() + " ")
+    } )
+  }
+
+  def inputInfo():Unit={
     var info:List[String] = List()
     var temp:String = ""
-    println("\n Please provide your information")
+    println(
+      """+++++++++++++++++++++++++++++++++++
+        |++       Adding new member       ++
+        |+++++++++++++++++++++++++++++++++++""".stripMargin)
+    println("Please provide your information")
+    val title:List[String] = List("MR", "MRS", "MISS")
+    var test = ""
+    do {
+      print(
+        """(example Mr. Mrs. Miss.)
+          |Your title name : """.stripMargin)
+      temp = scala.io.StdIn.readLine()
+      test = temp.toUpperCase
+      if (!title.exists(test.contains)) println("your title name is invalid, try again . .")
+      else info = ListManager.addItemToList(info, temp)
+    } while (!title.exists(test.contains))
+
     do {
       print("Your first name : ")
       temp = scala.io.StdIn.readLine()
@@ -46,7 +151,9 @@ object main {
     } while (temp.length != 10)
 
     do {
-      print("Your birth date (example DD/MM/YYYY) : ")
+      print(
+        """(example DD/MM/YYYY)
+          |Your birth date : """.stripMargin)
       temp = scala.io.StdIn.readLine()
     } while (!isBirthDate(temp))
     info = ListManager.addItemToList(info, bd(temp))
@@ -58,7 +165,7 @@ object main {
       else info = ListManager.addItemToList(info, temp)
     } while (temp.length < 10)
 
-    info.foreach(x=>println(x))
+    FileManager.writeFile(info)
   }
 
   def bd(string: String):String={
@@ -67,7 +174,7 @@ object main {
 
   def isBirthDate(string: String):Boolean = {
     if (string.length == 8){
-      if (string.substring(0,2).toInt < 31 && string.substring(0,2).toInt >=0){
+      if (string.substring(0,2).toInt <= 31 && string.substring(0,2).toInt >=0){
         if (string.substring(2,4).toInt >= 1 && string.substring(2,4).toInt <=12){
           val a = (setYear(string.substring(4,8).toInt)).toInt
           val b = time.Year.now().toString
