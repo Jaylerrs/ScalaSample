@@ -1,0 +1,13 @@
+<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBRYwBsbrZjVKWqfM99rNhU0q9FkNYR2wM",
+    authDomain: "scala-sj.firebaseapp.com",
+    databaseURL: "https://scala-sj.firebaseio.com",
+    projectId: "scala-sj",
+    storageBucket: "",
+    messagingSenderId: "819264962837"
+  };
+  firebase.initializeApp(config);
+</script>

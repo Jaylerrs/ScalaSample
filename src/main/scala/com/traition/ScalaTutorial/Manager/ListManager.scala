@@ -1,4 +1,4 @@
-package com.traition.ScalaTutorial
+package com.traition.ScalaTutorial.Manager
 
 object ListManager {
   def printList(list: List[Any]): Unit = {
@@ -21,9 +21,9 @@ object ListManager {
 
   def penultimate(list: List[Int]): Int = list(list.length - 2)
 
-  def nth(int: Int, list: List[Int]): Int = {
+  def nth(item: Any, list: List[Any]): Any = {
     var length:Int = 0
-    while(list(length) != int){
+    while(list(length) != item){
       length+=1
     }
     list(length)

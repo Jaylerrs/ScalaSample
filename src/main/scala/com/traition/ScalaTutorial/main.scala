@@ -1,36 +1,114 @@
 package com.traition.ScalaTutorial
 
-object main {
+import java.time
 
-  import scala.math._
-  val ls: List[Int] = List(1, 1, 2, 3, 5, 8)
+import com.traition.ScalaTutorial.Manager.ListManager
+
+object main {
+  val ls: List[Int] = List(1, 2, 3, 4)
   val adList: List[Symbol] = List('a, 'b, 'c, 'd)
   val afList: List[Symbol] = List('a, 'b, 'c, 'd, 'e, 'f)
   val ahList: List[Symbol] = List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h)
 
   def main(args: Array[String]): Unit = {
-    println("Welcome let's starting SCALA")
+    println(time.Year.now())
+    println("getting start with SCALA")
+    (ahList ++ afList ++ adList ++ ahList).foreach(x => print("-"))
+    var info:List[String] = List()
+    var temp:String = ""
+    println("\n Please provide your information")
+    do {
+      print("Your first name : ")
+      temp = scala.io.StdIn.readLine()
+      if (temp.length < 5 ) println("your first name is too short, try again . .")
+      else info = ListManager.addItemToList(info, temp)
+    } while (temp.length < 5)
 
-    val l1 = ListManager.addItemToList(ls, 9)
-    ListManager.printList(l1)
-    println(ListManager.isPalindrome(l1))
-    println(ListManager.flatten(List(List(1, 1), 2, List(3, List(5, 8)))))
+    do {
+      print("Your last name : ")
+      temp = scala.io.StdIn.readLine()
+      if (temp.length < 5 ) println("your last name is too short, try again . .")
+      else info = ListManager.addItemToList(info, temp)
+    } while (temp.length < 5)
 
-    val a = (x:Int) => x*5
-    println(a(5))
-    val userDir = () => { System.getProperty("user.dir") }
-    println(userDir())
+    do {
+      print("Your nick name : ")
+      temp = scala.io.StdIn.readLine()
+      if (temp.length < 1 ) println("your nick name is too short, try again . .")
+      else info = ListManager.addItemToList(info, temp)
+    } while (temp.length < 1)
 
-    val b = (xx:Int) => xx*a(xx)
-    println(b(5))
+    do {
+      print("Your phone number : ")
+      temp = scala.io.StdIn.readLine()
+      if (temp.length != 10 ) println("your phone is invalid, try again . .")
+      else info = ListManager.addItemToList(info, temp)
+    } while (temp.length != 10)
 
-    val c = (xxx:String) => xxx + b(5).toString()
-    println(c("Can I borrow your money only for ") + " dollar")
-    println(c("Please give me ") + (10+3*5/2).toString + " dollar")
-    println(round(10.4))
-    val age = 23
-    val canVote = if (age >=18) "can" else "can not"
-    val canVote2 = if (age>=18) "Yes," else "No,"
-    println(canVote2+" I " + canVote + " vote")
+    do {
+      print("Your birth date (example DD/MM/YYYY) : ")
+      temp = scala.io.StdIn.readLine()
+    } while (!isBirthDate(temp))
+    info = ListManager.addItemToList(info, bd(temp))
+
+    do {
+      print("Your address : ")
+      temp = scala.io.StdIn.readLine()
+      if (temp.length < 5 ) println("your address is too short, try again . .")
+      else info = ListManager.addItemToList(info, temp)
+    } while (temp.length < 10)
+
+    info.foreach(x=>println(x))
+  }
+
+  def bd(string: String):String={
+    string.substring(0,2) ++" "++ month((string.substring(2,4)).toInt) ++" "++ setYear(string.substring(4,8).toInt)
+  }
+
+  def isBirthDate(string: String):Boolean = {
+    if (string.length == 8){
+      if (string.substring(0,2).toInt < 31 && string.substring(0,2).toInt >=0){
+        if (string.substring(2,4).toInt >= 1 && string.substring(2,4).toInt <=12){
+          val a = (setYear(string.substring(4,8).toInt)).toInt
+          val b = time.Year.now().toString
+          if ((b.toInt-a) >= 15){
+            true
+          } else {
+            println("Your are is too young")
+            false
+          }
+        } else {
+          println("Invalid month")
+          false
+        }
+      } else {
+        println("Invalid date")
+        false
+      }
+    } else {
+      println("Invalid Birth date")
+      false
+    }
+  }
+
+  def month(int: Int): String = int match {
+    case 1 => "January"
+    case 2 => "February"
+    case 3 => "March"
+    case 4 => "April"
+    case 5 => "May"
+    case 6 => "June"
+    case 7 => "July"
+    case 8 => "August"
+    case 9 => "September"
+    case 10 => "October"
+    case 11 => "November"
+    case 12 => "December"
+  }
+
+  def setYear(int: Int):String ={
+    if (int > 2017){
+      (int - 543).toString
+    } else int.toString
   }
 }
