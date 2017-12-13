@@ -4,7 +4,7 @@
 		module="jaylerr$sources"
 		revision="0.1"
 		status="integration"
-		publication="20171208164655"
+		publication="20171213110914"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

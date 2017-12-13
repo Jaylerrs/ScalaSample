@@ -1,7 +1,7 @@
 package com.traition.ScalaTutorial
 import java.time
 
-import com.traition.ScalaTutorial.Manager.{FileManager, ListManager}
+import com.traition.ScalaTutorial.manager.{FileManager, ListManager}
 
 object main {
   val ls: List[Int] = List.range(1,4)
@@ -31,37 +31,50 @@ object main {
     whatDoUWant()
   }
 
+  def readInt():Int={
+    val text = scala.io.StdIn.readLine()
+    var select:(Int) = 0
+    try{if (text.toInt.isValidInt) select = text.toInt else select = 0}
+    catch {case _ => select = 0}
+    select
+  }
+
   def whatDoUWant(): Unit ={
     printX(33, "=")
     println(
       """press 1, Add new member
         |press 2, Print all member
-        |press 3, Remove all""".stripMargin)
-    print("Select : ")
-    var select = scala.io.StdIn.readLine().toInt
-    while (select>3 || select <1){
-      if (select>3 || select <1) {
-        println("Please select only we have provided")
-        print("Select : ")
-        select = scala.io.StdIn.readLine().toInt
+        |press 3, Find member""".stripMargin)
+    print("*Select : ")
+
+    var select = readInt()
+
+    if (select != 1001){
+      while (select>3 || select <1){
+        if (select>3 || select <1) {
+          println("Please select only we have provided")
+          print("Select : ")
+          select = readInt()
+        }
       }
     }
+
     select match {
       case 1 => inputInfo()
       case 2 => FileManager.readAllName()
-      case 3 => remove()
+      case 3 => FileManager.findOne()
+      case 1001 => remove()
     }
 
     println()
     printX(51, "*")
     print(
-      """Quite? press Q
+      """End this? press 'EXIT'
         |Wanna continue? press any key
         |select : """.stripMargin)
     val out = scala.io.StdIn.readLine().toString
-    out match {
-      case "q" =>
-      case "Q" =>
+    out.toUpperCase() match {
+      case "EXIT" =>
       case _ => whatDoUWant()
     }
   }
@@ -75,11 +88,12 @@ object main {
         |**  This option require password to continue            **
         |**********************************************************
         |Password : """.stripMargin)
-    val pass = scala.io.StdIn.readLine().toString
+    val standardIn = System.console()
+    val pass = scala.io.StdIn.readLine()
     if(pass.equals("password")){
       println("Remove all member data, Are you sure? (Y to confirm any key to cancel)")
       print("Answer : ")
-      val confirm = scala.io.StdIn.readLine().toString
+      val confirm = scala.io.StdIn.readLine()
       if ("Y".equals(confirm.toUpperCase())){
         FileManager.removeFile()
       }

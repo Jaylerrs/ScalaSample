@@ -4,7 +4,7 @@
 		module="jaylerr-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171208164649"
+		publication="20171213084858"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
