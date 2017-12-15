@@ -3,7 +3,7 @@ package com.traition.ScalaTutorial.manager
 object ListManager {
   def printList(list: List[Any]): Unit = {
     var int:Int = 0
-    print("Print : ")
+    print("=>")
     while (int < list.length){
       print(" ".concat(list(int).toString))
       int += 1

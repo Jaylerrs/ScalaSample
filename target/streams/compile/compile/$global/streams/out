@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/src/main/scala/com/traition/ScalaTutorial/main.scala:38:17: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    catch {case _ => select = 0}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/src/main/scala/com/traition/ScalaTutorial/manager/FileManager.scala:12:12: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _ => println("Something wrong")[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

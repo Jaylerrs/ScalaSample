@@ -1,0 +1,65 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/jaylerr_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/Tutorials2.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/Tutorials2.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/EmailManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/EmailManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/testLinkedlist.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/testLinkedlist.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/model[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/failed/firebase[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/failed/firebase[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/exam3.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/exam3.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/manager/ListManager$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/manager/ListManager$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/EmailManager$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/EmailManager$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/manager/FileManager$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/manager/FileManager$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/manager/SqlManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/manager/SqlManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/manager/ListManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/manager/ListManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/study.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/study.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/failed[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/failed[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/jj55jj.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/jj55jj.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/linklish.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/linklish.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/Tutorials.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/Tutorials.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/model/User$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/model/User$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/Tutorials3.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/Tutorials3.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/model/UserBean.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/model/UserBean.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/manager/SqlManager$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/manager/SqlManager$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/model/User.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/model/User.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/exam.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/exam.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/manager/FileManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/manager/FileManager.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/example/exam2.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/example/exam2.sc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/traition/ScalaTutorial/manager[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/tcdm053/Desktop/Jaylerr Infinite/Scala/jaylerr/target/scala-2.12/classes/com/traition/ScalaTutorial/manager[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

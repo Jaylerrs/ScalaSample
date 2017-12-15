@@ -67,6 +67,7 @@ object main {
     }
 
     println()
+    print("   ")
     printX(51, "*")
     print(
       """End this? press 'EXIT'
@@ -82,27 +83,30 @@ object main {
   def remove(): Unit ={
     print(
       """
-        |**********************************************************
-        |**  This option are risk and effect all around.         **
-        |**  Please make sure you have to remove member's data.  **
-        |**  This option require password to continue            **
-        |**********************************************************
-        |Password : """.stripMargin)
+        |   **********************************************************
+        |   **  This option are risk and effect all around.         **
+        |   **  Please make sure you have to remove member's data.  **
+        |   **  This option require password to continue            **
+        |   **********************************************************
+        |   Password : """.stripMargin)
     val standardIn = System.console()
     val pass = scala.io.StdIn.readLine()
-    if(pass.equals("password")){
-      println("Remove all member data, Are you sure? (Y to confirm any key to cancel)")
-      print("Answer : ")
-      val confirm = scala.io.StdIn.readLine()
-      if ("Y".equals(confirm.toUpperCase())){
-        FileManager.removeFile()
+    pass match {
+      case "password" => {
+        println("Remove all member data, Are you sure? (Y to confirm any key to cancel)")
+        print("Answer : ")
+        val confirm = scala.io.StdIn.readLine()
+        if ("Y".equals(confirm.toUpperCase())){
+          FileManager.removeFile()
+        }
       }
-    } else print(
-      """|
-         |***************************************************
-         |**  The password is incorrect,                   **
-         |**  So you don't have permission to remove this  **
-         |**  Finally, The data are safe and still alive   **""".stripMargin)
+      case _ => print(
+        """|
+           |   ***************************************************
+           |   **  The password is incorrect!                   **
+           |   **  So you don't have permission to remove this  **
+           |   **  Finally, The data are safe and still alive   **""".stripMargin)
+    }
 
   }
 
@@ -120,9 +124,9 @@ object main {
     var info:List[String] = List()
     var temp:String = ""
     println(
-      """+++++++++++++++++++++++++++++++++++
-        |++       Adding new member       ++
-        |+++++++++++++++++++++++++++++++++++""".stripMargin)
+      """   +++++++++++++++++++++++++++++++++++
+        |   ++       Adding new member       ++
+        |   +++++++++++++++++++++++++++++++++++""".stripMargin)
     println("Please provide your information")
     val title:List[String] = List("MR", "MRS", "MISS")
     var test = ""

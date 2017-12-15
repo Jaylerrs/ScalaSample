@@ -21,16 +21,33 @@ object FileManager {
   }
 
   def removeFile(): Unit ={
-    val writer = new PrintWriter("info.txt")
-    writer.write("")
+    val file = Source.fromFile("info.txt").getLines()
+    if ((file.toString()) == "empty iterator"){
+      println(
+        """
+          |   **********************************************
+          |   **  No existing member data to remove.      **
+          |   **  Don't worry, you can add new easily.    **
+          |   **********************************************""".stripMargin)
+    } else {
+      val writer = new PrintWriter("info.txt")
+      writer.write("")
+      println(
+        """
+          |   ********************************************
+          |   **  All member data are now gone.         **
+          |   **  Don't worry, you can add new easily.  **
+          |   ********************************************""".stripMargin)
+    }
   }
 
   def readAllName(): Unit ={
     println(
-      """------------------------------------------
-        |--       Printing all member name       --
-        |------------------------------------------""".stripMargin)
+      """   ------------------------------------------
+        |   --       Printing all member name       --
+        |   ------------------------------------------""".stripMargin)
     val file = Source.fromFile("info.txt").getLines()
+    print("   "+file)
     file.foreach(x => {
       val person = x.split(",")
       println(person(1) + " " + person(2))
@@ -39,9 +56,9 @@ object FileManager {
 
   def findOne():Unit = {
     println(
-      """------------------------------------------
-        |--       Finding member information     --
-        |------------------------------------------""".stripMargin)
+      """   ------------------------------------------
+        |   --       Finding member information     --
+        |   ------------------------------------------""".stripMargin)
     println("If you want to exit finding press EXIT")
     var exit = ""
     while (exit.toUpperCase() != "EXIT"){
@@ -54,9 +71,17 @@ object FileManager {
       }
 
       val file = Source.fromFile("info.txt").getLines()
+      println("-- result ----------------------------------------")
+      var i:Int = 0
       file.foreach(x=>{
-        if (x.contains(find)) ListManager.printList(List(x))
+        if ((x.toUpperCase()).contains(find.toUpperCase())) {
+          ListManager.printList(List(x))
+          i+=1
+        }
       })
+      if (i<1){
+        println("     not found")
+      }
       exit = find
     }
   }
