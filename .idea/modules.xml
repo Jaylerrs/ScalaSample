@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jaylerr.iml" filepath="$PROJECT_DIR$/.idea/modules/jaylerr.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jaylerr-build.iml" filepath="$PROJECT_DIR$/.idea/modules/jaylerr-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalasample.iml" filepath="$PROJECT_DIR$/.idea/modules/scalasample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatutorial-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatutorial-build.iml" />
     </modules>
   </component>
 </project>
