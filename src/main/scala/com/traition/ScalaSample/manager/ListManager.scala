@@ -1,4 +1,4 @@
-package com.traition.ScalaTutorial.manager
+package com.traition.ScalaSample.manager
 
 object ListManager {
   def printList(list: List[Any]): Unit = {

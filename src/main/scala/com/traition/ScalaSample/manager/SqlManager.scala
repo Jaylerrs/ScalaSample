@@ -1,4 +1,4 @@
-package com.traition.ScalaTutorial.manager
+package com.traition.ScalaSample.manager
 import scala.slick.driver.H2Driver.simple._
 object SqlManager {
   def test (): Unit ={

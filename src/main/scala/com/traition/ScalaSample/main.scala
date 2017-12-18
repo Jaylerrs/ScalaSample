@@ -1,7 +1,7 @@
-package com.traition.ScalaTutorial
+package com.traition.ScalaSample
 import java.time
 
-import com.traition.ScalaTutorial.manager.{FileManager, ListManager}
+import com.traition.ScalaSample.manager.{FileManager, ListManager}
 
 object main {
   val ls: List[Int] = List.range(1,4)

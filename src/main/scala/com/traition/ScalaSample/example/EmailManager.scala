@@ -1,4 +1,4 @@
-package com.traition.ScalaTutorial.example
+package com.traition.ScalaSample.example
 
 object EmailManager {
   def isEmail(email:String): Boolean = {

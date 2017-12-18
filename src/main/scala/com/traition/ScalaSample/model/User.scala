@@ -1,4 +1,4 @@
-package com.traition.ScalaTutorial.model
+package com.traition.ScalaSample.model
 import scala.beans.BeanProperty
 
 case class User(id:String, name: String, email:String, role:Option[String] = None, imageURL: Option[String] = None) {

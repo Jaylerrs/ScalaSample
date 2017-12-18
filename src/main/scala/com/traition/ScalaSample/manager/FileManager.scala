@@ -1,4 +1,4 @@
-package com.traition.ScalaTutorial.manager
+package com.traition.ScalaSample.manager
 import java.io.{File, FileOutputStream, PrintWriter}
 
 import scala.io._
